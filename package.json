@@ -1,0 +1,17 @@
+{ 
+  "name": "anti-captcha-image",
+  "version": "1.0.0",
+  "description": "Apify act for solving google recaptcha using the anti-captcha.com service",
+  "main": "main.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cermak-petr/act-anti-captcha-image"
+  },
+  "dependencies": {
+    "apify": "latest",
+    "bluebird": "latest",
+    "request-promise": "latest",
+    "node-base64-image": "latest"
+  }
+}
