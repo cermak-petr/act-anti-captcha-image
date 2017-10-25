@@ -1,7 +1,7 @@
 { 
   "name": "anti-captcha-image",
   "version": "1.0.0",
-  "description": "Apify act for solving google recaptcha using the anti-captcha.com service",
+  "description": "Apify act for solving image captchas using the anti-captcha.com service",
   "main": "main.js",
   "license": "Apache-2.0",
   "repository": {
