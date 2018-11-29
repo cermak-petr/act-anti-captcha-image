@@ -1,10 +1,9 @@
+const uril = require('util');
 const Apify = require('apify');
-const Promise = require('bluebird');
 const i2b = require('node-base64-image');
 const request = require('request-promise');
-Apify.setPromisesDependency(Promise);
 
-const i2bp = Promise.promisify(i2b.encode);
+const i2bp = util.promisify(i2b.encode);
 
 class Anticaptcha {
     
