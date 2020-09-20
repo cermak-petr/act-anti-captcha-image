@@ -1,4 +1,4 @@
-const uril = require('util');
+const util = require('util');
 const Apify = require('apify');
 const i2b = require('node-base64-image');
 const request = require('request-promise');
